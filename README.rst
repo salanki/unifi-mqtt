@@ -20,7 +20,7 @@ Run as Docker container
 
 .. code:: bash
 
-  docker run --name unifi-presence --restart=always -t -e UNIFI_PASSWORD=mypass -e UNIFI_USERNAME=user -e UNIFI_HOST=192.168.15.9 -e MQTT_BROKER=192.168.15.9 -e MQTT_TOPIC=home/wifi/presence unif
+  docker run --name salanki/unifi-mqtt --restart=always -t -e UNIFI_PASSWORD=mypass -e UNIFI_USERNAME=user -e UNIFI_HOST=192.168.15.9 -e MQTT_BROKER=192.168.15.9 -e MQTT_TOPIC=home/wifi/presence unif
 
 Usage with OpenHAB
 -----------
