@@ -11,10 +11,6 @@ The Lock status will be polled at a user-defined interval and published to the t
     "hostname": "laptop"
   }
 
-A Kevo Plus bridge is required. You can get the lock IDs manually by logging into mykevo.com, click Details for the lock, click Settings, the lock ID is on the right.
-
-Thanks to Carl Seelye for `pynello <https://github.com/cseelye/pykevoplus>`_.
-
 Run as Docker container
 -----------
 
